@@ -10,7 +10,7 @@
 // Time: O(n), Space: O(1)
 
 public class Solution {
-    public static void main(String [] argvs) {
+    public static void main(String [] args) {
         int [] arr = new int[]{2, 3, 1, 2, 4, 3};
         System.out.println(new Solution().minSubarrayLen(7, arr));
     }
